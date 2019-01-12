@@ -9,5 +9,5 @@ const reverseastring = (word)=>{
     }
     return newword.join("")
 }
-let x = reverseastring("Finally")
+let x = reverseastring("hello there")
 console.log(x)

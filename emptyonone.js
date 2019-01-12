@@ -9,13 +9,10 @@ let emptyonone = (x) => {
     return x
   } 
    else if (x[i]===1){
-      while (i>=0){
-          x.pop()
-          i--
-      }
+      x=[] 
       return x
   }
-  else{
+  else {
       return x
   }
 }
